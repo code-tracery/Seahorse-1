@@ -555,6 +555,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &2095285051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7266021810644884182, guid: 8ddf077d263f93f49a3a010492a94e86, type: 3}
+  m_PrefabInstance: {fileID: 149972563704809826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2095285056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095285051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e515e6be1c8c045a503806e406008e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpController
+  jumpForce: 5
 --- !u!1001 &149972563704809826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -565,11 +583,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6732921500542489531, guid: 8ddf077d263f93f49a3a010492a94e86, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.66957
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6732921500542489531, guid: 8ddf077d263f93f49a3a010492a94e86, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.69684
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6732921500542489531, guid: 8ddf077d263f93f49a3a010492a94e86, type: 3}
       propertyPath: m_LocalPosition.z
@@ -607,18 +625,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seahorse
       objectReference: {fileID: 0}
-    - target: {fileID: 7857567686745946393, guid: 8ddf077d263f93f49a3a010492a94e86, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 7857567686745946393, guid: 8ddf077d263f93f49a3a010492a94e86, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.65
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7266021810644884182, guid: 8ddf077d263f93f49a3a010492a94e86, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2095285056}
   m_SourcePrefab: {fileID: 100100000, guid: 8ddf077d263f93f49a3a010492a94e86, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
